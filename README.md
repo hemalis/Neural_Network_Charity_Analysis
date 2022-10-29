@@ -29,6 +29,9 @@ In this project, we will help Beks to create a binary classifier model that is c
 
 - What variable(s) are considered to be the features for your model?
   - **APPLICATION_TYPE**, **AFFILIATION**, **CLASSIFICATION**, **USE_CASE**, **ORGANIZATION**, **STATUS**, **INCOME_AMT**, **SPECIAL_CONSIDERATIONS**, **ASK_AMT** are features for the model.
+
+![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/5.png?raw=true)
+
 - What variable(s) are neither targets nor features, and should be removed from the input data?
   - **EIN** and **NAME** doesn't add any value to the model and can be removed.
 
@@ -37,7 +40,9 @@ In this project, we will help Beks to create a binary classifier model that is c
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
   - I selected 3 hidden layers, each having 100, 80, 30 neurons respectively. I chose relu activations for input data and sigmoid for output layer becuse it's binary classification problem & those activations works well with those.
 
-![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/5.png?raw=true)
+![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/2.png?raw=true)
+
+![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/3.png?raw=true)
 
 - Were you able to achieve the target model performance?
   - I was able to achieve ~73% performance which was lower then 75% target.
@@ -50,12 +55,6 @@ In this project, we will help Beks to create a binary classifier model that is c
     2. Tried various activation functions.
     3. Tried various number of neurons and layers.
     4. Changed epochs.
-
-![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/2.png?raw=true)
-
-![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/3.png?raw=true)
-
-![image](https://github.com/hemalis/Neural_Network_Charity_Analysis/blob/main/images/4.png?raw=true)
 
 ### Summary
 
